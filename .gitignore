@@ -1,0 +1,16 @@
+# File temporanei di MATLAB
+*.asv
+*.m~
+*.fig
+*.slxc
+*.slx.autosave
+*.mdl.*
+*.mex*
+*.log
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Backup
+*.bak
