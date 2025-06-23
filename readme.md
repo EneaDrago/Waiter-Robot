@@ -52,7 +52,7 @@ To run the project:
 
   ```matlab
   simulation_choice = 1;  % Holding tray in place
-  % simulation_choice = 2;  % Waiter robot in action
+  simulation_choice = 2;  % Waiter robot in action
   ```
 
 - Run the script to start the simulation.
