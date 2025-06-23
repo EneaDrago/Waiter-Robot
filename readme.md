@@ -1,4 +1,5 @@
-[![Guarda il video su YouTube](https://img.youtube.com/vi/CQSC1y-ab6w/0.jpg)](https://www.youtube.com/watch?v=CQSC1y-ab6w)
+## Click to see the YouTube video
+[![YouTube](https://img.youtube.com/vi/CQSC1y-ab6w/0.jpg)](https://www.youtube.com/watch?v=CQSC1y-ab6w)
 
 
 ## Waiter robot simulation
