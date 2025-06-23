@@ -1,3 +1,6 @@
+[![Guarda il video su YouTube](https://img.youtube.com/vi/CQSC1y-ab6w/0.jpg)](https://www.youtube.com/watch?v=CQSC1y-ab6w)
+
+
 ## Waiter robot simulation
 
 This project simulates a waiter robot. The robot consists of a 7-DOF robotic arm mounted on a mobile base equipped with 3 omnidirectional wheels.
@@ -46,9 +49,6 @@ simulation_choice:
     1 <--- Holding tray in place
     2 <--- Waiter robot in action
 
-
-
-[![Guarda il video su YouTube](https://img.youtube.com/vi/CQSC1y-ab6w/0.jpg)](https://youtu.be/CQSC1y-ab6w)
 
 ## Collaborators
 
