@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="biscuits_dish">
+  <link
+    name="servingdish">
+    <inertial>
+      <origin
+        xyz="2.7075E-08 4.3908E-08 -0.00057887"
+        rpy="0 0 0" />
+      <mass
+        value="0.03616" />
+      <inertia
+        ixx="3.3763E-05"
+        ixy="9.8378E-11"
+        ixz="2.3456E-11"
+        iyy="3.3763E-05"
+        iyz="-2.3048E-11"
+        izz="6.728E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.57 0 0" />
+      <geometry>
+        <mesh
+          filename="package://biscuits_dish/meshes/servingdish.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.95686 0.85098 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://biscuits_dish/meshes/servingdish.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="biscuit">
+    <inertial>
+      <origin
+        xyz="0.0097945 0.0042388 0.014666"
+        rpy="0 0 0" />
+      <mass
+        value="0.055502" />
+      <inertia
+        ixx="9.659E-06"
+        ixy="1.442E-07"
+        ixz="7.6002E-08"
+        iyy="1.8075E-05"
+        iyz="1.9481E-06"
+        izz="1.068E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="-0.01 -0.009 0.015"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://biscuits_dish/meshes/biscuit.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8608 0.62353 0.23725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://biscuits_dish/meshes/biscuit.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="biscuit"
+    type="fixed">
+    <origin
+      xyz="-0.015968 -0.013252 0.008"
+      rpy="1.5708 0 1.449" />
+    <parent
+      link="servingdish" />
+    <child
+      link="biscuit" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

@@ -1,0 +1,20 @@
+clear
+clc
+close all
+
+% Launch setup
+setup;
+
+% ================================================
+% 3D simulation 
+% ================================================
+% ATTENTION: to launch them, check if the simulink has the corresponding
+% setting selected
+simulation_choice = 1;
+% RESTAURANT SIMULATION
+
+if simulation_choice ==0
+    simulation_3D_restaurant; % <--- un-comment to launch
+else
+% RESTING END EFFECTOR SIMULATION
+    basic_simulation_3D; % <--- un-comment to launch
