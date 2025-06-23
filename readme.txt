@@ -48,7 +48,7 @@ simulation_choice:
 
 
 
-[![Guarda il video su YouTube](https://youtu.be/CQSC1y-ab6w)](https://youtu.be/CQSC1y-ab6w)
+[![Guarda il video su YouTube](https://img.youtube.com/vi/CQSC1y-ab6w/0.jpg)](https://youtu.be/CQSC1y-ab6w)
 
 ## Collaborators
 
