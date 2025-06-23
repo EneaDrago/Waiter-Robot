@@ -24,7 +24,6 @@ The following toolboxes are required:
 waiter_robot/
 ├── setup.m                        # Initializes paths and parameters, runs Simulink simulation
 ├── main.m                         # Main script to start the project
-├── readme.txt
 ├── animations/
 │   ├── animation_hold_in_place.m # Robot holds the tray while the base moves
 │   ├── animation_restaurant.m    # Restaurant environment animation
