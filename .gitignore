@@ -1,16 +1,23 @@
-# File temporanei di MATLAB
+# Cartelle temporanee
+slprj/
+sfun/
+work/
+
+# File di salvataggio automatico
 *.asv
+*.autosave
+
+# File di backup e temporanei
 *.m~
-*.fig
+*.bak
+*.log
+
+# File Simulink generati
 *.slxc
 *.slx.autosave
 *.mdl.*
 *.mex*
-*.log
 
 # File di sistema
 .DS_Store
 Thumbs.db
-
-# Backup
-*.bak
