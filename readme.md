@@ -20,36 +20,42 @@ The following toolboxes are required:
 
 ## Project structure
 
+```
 waiter_robot/
-├── setup.m # Initializes paths and parameters, run simulink simulation
-├── main.m # Main script to start the project
+├── setup.m                        # Initializes paths and parameters, runs Simulink simulation
+├── main.m                         # Main script to start the project
 ├── readme.txt
 ├── animations/
-│ ├── animation_hold_in_place.m # Animation of the robot holding the tray in place, while the base is moving
-│ ├── animation_restaurant.m # Restaurant environment animation
-│ └── map/
-│ ├── map_builder.m # Generates the map of the environment
-│ ├── add_obstacle.m # Adds obstacles to the environment
-│ └── add_mannequin.m # Adds mannequins (e.g., human models) 
-│ └── actor/ # meshes and URDF files for the animation
+│   ├── animation_hold_in_place.m # Robot holds the tray while the base moves
+│   ├── animation_restaurant.m    # Restaurant environment animation
+│   └── map/
+│       ├── map_builder.m         # Generates the environment map
+│       ├── add_obstacle.m        # Adds obstacles to the environment
+│       ├── add_mannequin.m       # Adds mannequins (e.g., human models)
+│       └── actor/                # Meshes and URDF files
 ├── simulations/
-│ └── kinematic_simulation/
-│ ├── kinematic_simulation.xlsx # Robot simulation simulink
-│ ├── generate_poses_dataset.m # Generates reachable poses for the arm
-│ ├── get_chassis_pose_from_endeffector.m # Computes base pose from desired EE pose
-│ ├── hat.m # Utility function 
-│ ├── inv_hat.m # Utility function 
-│ └── path_planning.m # Utility function 
-
+│   └── kinematic_simulation/
+│       ├── kinematic_simulation.xlsx        # Simulink model
+│       ├── generate_poses_dataset.m         # Generates reachable poses
+│       ├── get_chassis_pose_from_endeffector.m # Computes base pose from EE pose
+│       ├── hat.m                            # Utility function
+│       ├── inv_hat.m                        # Utility function
+│       └── path_planning.m                  # Utility function
+```
 
 ## How to use
 
-To run the project, select the preferred settings in main.m then run the script.
+To run the project:
 
-simulation_choice: 
-    1 <--- Holding tray in place
-    2 <--- Waiter robot in action
+- Open the file `main.m` in MATLAB.
+- Select the simulation mode by setting the following variable:
 
+  ```matlab
+  simulation_choice = 1;  % Holding tray in place
+  % simulation_choice = 2;  % Waiter robot in action
+  ```
+
+- Run the script to start the simulation.
 
 ## Collaborators
 
