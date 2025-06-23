@@ -45,3 +45,8 @@ To run the project, select the preferred settings in main.m then run the script.
 simulation_choice: 
     1 <--- Holding tray in place
     2 <--- Waiter robot in action
+
+
+## Collaborators
+
+- [AndreaVivai](https://github.com/AndreaVivai) – Contributor 
