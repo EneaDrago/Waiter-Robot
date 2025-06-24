@@ -56,6 +56,7 @@ To run the project:
 
 - Run the script to start the simulation.
 
-## Collaborators
 
-- [AndreaVivai](https://github.com/AndreaVivai) – Contributor 
+## Authors
+- Andrea Vivai - GitHub: [https://github.com/AndreaVivai](https://github.com/AndreaVivai)
+- Enea Dragoni - GitHub: [https://github.com/EneaDragoni](https://github.com/EneaDragoni)
