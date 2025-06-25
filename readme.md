@@ -60,3 +60,8 @@ To run the project:
 ## Authors
 - Andrea Vivai - GitHub: [https://github.com/AndreaVivai](https://github.com/AndreaVivai)
 - Enea Dragoni - GitHub: [https://github.com/EneaDragoni](https://github.com/EneaDragoni)
+
+
+## License
+This project is released under the MIT License.
+
