@@ -7,6 +7,12 @@
 This project simulates a waiter robot. The robot consists of a 6-DOF robotic arm (UR5 inspired) mounted on a mobile base equipped with 3 omnidirectional wheels.
 The robot is capable of navigating an environment using an RRT* planner and reaching a sequence of poses with its arm, while carrying a tray in its hand.
 
+The arm and based movement are controlled kinematically using a CLIK controller. The arm has been controlled using multiple dynamic controls, such as:
+- Backstepping
+- Computed Torque
+- PD+Gravity
+- Adaptive Backstepping
+
 ## Requirements
 
 This project was developed using MATLAB and Simulink. 
