@@ -4,7 +4,7 @@
 
 ## Waiter robot simulation
 
-This project simulates a waiter robot. The robot consists of a 7-DOF robotic arm mounted on a mobile base equipped with 3 omnidirectional wheels.
+This project simulates a waiter robot. The robot consists of a 6-DOF robotic arm (UR5 inspired) mounted on a mobile base equipped with 3 omnidirectional wheels.
 The robot is capable of navigating an environment using an RRT* planner and reaching a sequence of poses with its arm, while carrying a tray in its hand.
 
 ## Requirements
