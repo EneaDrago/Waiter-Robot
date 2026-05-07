@@ -8,10 +8,11 @@ This project simulates a waiter robot. The robot consists of a 6-DOF robotic arm
 The robot is capable of navigating an environment using an RRT* planner and reaching a sequence of poses with its arm, while carrying a tray in its hand.
 
 The arm and base motions are controlled kinematically using a CLIK controller. The arm is controlled using multiple dynamic control strategies, such as:
-- Backstepping
-- Computed Torque
 - PD+Gravity
+- Backstepping
 - Adaptive Backstepping
+- Computed Torque
+- Adaptive Computed Torque
 
 ## Requirements
 
